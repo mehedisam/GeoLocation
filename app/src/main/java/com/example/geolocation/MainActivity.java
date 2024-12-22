@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG=MainActivity.class.getSimpleName();
 
-    private static final int UPDATE_INTERVAL=5000; // 5 seconds
+    private static final int UPDATE_INTERVAL=600000; // Every 10 Mins
 
     FusedLocationProviderClient locationProviderClient;
     LocationRequest locationRequest;
